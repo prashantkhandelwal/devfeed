@@ -2,6 +2,7 @@ module github.com/prashantkhandelwal/devfeed
 
 go 1.15
 
+
 require (
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
@@ -16,3 +17,7 @@ require (
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace github.com/prashantkhandelwal/devfee/dcontrollers => ../controllers
+
+
